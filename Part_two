@@ -1,0 +1,11 @@
+1. Man command - (manual) exists for learning more about Terminal commands. (Man rm - rm, unlink - remove directory entries.) Use Ctrl+D/D to scroll down, Ctrl+B/B to scroll up. Also we can use Ctrl+U/U to get back to half of previous page . To get out of the  man command we use q. 
+2. -f flag for command ls lists files in the long format, in another words, lists more informationn about each file. -a flag includes directory entries whose names begin with a dot (‘.’). (including hidden files)
+3. option left/right
+4. To get to the end of line use Ctrl+e
+5. To get to the beginning of the line use Ctrl+a
+6. For deleting the word use Ctrl+w
+7. The shell is the program which actually processes commands and returns output. The Terminal refers to a wrapper program which runs a shell. Simply speaking, the terminal is an interface to the shell.
+8. The absolute path is entire path starting with a root directory. It's the entire location ( entire address), the pathway to get to a file or a folder.    
+9. The relative path is a path that is relative to your folder. 
+10. A flag is additional instructions or options to the command. For example, for ls command: -l flag - provides a detailed listing (ls -l); -a flag - lists all files, including hidden ones ( ls -a); -la flag - it's a combined flags for -l and -a flags. Another example for commad  cp, we can use -r flag to make a copy of directory, cp -r. Without -r flag for cp command we can't make a copy of a folder, we can copy only files. 
+11. rm command is used for removing a file or a folder (completely remove). rm -rf is used for removing a folder that have something inside. 
